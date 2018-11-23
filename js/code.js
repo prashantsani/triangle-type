@@ -3,7 +3,7 @@
   function determineTriangleType(a, b, c){
     var triangleType;
 
-    if(typeof a !== "number" || typeof b !== "number" || typeof c !== "number"){
+    if(a.toString() === "NaN" || b.toString() === "NaN" || c.toString() === "NaN"){
       return "Please Enter the length of sides in digits";
     }
 
