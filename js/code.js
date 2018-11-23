@@ -17,6 +17,11 @@
     else if ( (a === c) || (b === c) || (a === b)){
       triangleType = "isoseles";
     }
+    else if(  ((a * a) + (b * b) === (c * c)) ||
+              ((a * a) + (c * c) === (b * b)) ||
+              ((c * c) + (b * b) === (a * a)) ) {
+      triangleType = 'Right Angled Triangle';
+    }
     else {
       triangleType = "scalene";
     }
