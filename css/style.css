@@ -1,0 +1,63 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  -webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	background: #0c0c0c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+.wrap{
+  width:86%;
+  margin:0 auto;
+}
+h1{
+  font-family: 'Inconsolata', monospace;
+  font-size: 3rem;
+  margin-top: 1.5em;
+  color: #c22085;
+}
+.heading{
+  text-align: center;
+}
+input{
+  font-family: inherit;
+  color: #0c0c0c;
+  background: white;
+}
+.triangleType{
+  width: 300px;
+  margin: 1.5em auto;
+}
+.triangleType input,
+.triangleType label{
+  display: inline-block;
+}
+.triangleType label{
+  width: 100px;
+}
+.triangleType input[type="number"]{
+  font-size: inherit;
+  width: 190px;
+}
+.triangleType fieldset{
+  margin: 2rem 0;
+  border: none;
+  font-size: 1.3rem;
+}
+input[type="submit"]{
+  width: 300px;
+  background: #c22085;
+  color: inherit;
+  font-size: 1.3rem;
+  padding: 0.3rem 0;
+}
+#triangleResult{
+  color: #c22085;
+  font-size: 1.5rem;
+  text-align: center
+}

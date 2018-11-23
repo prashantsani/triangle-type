@@ -5,10 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Triangle Type</title>
-
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans:300i,400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-  
+  <div class="wrap">
+    <h1 class="heading">Determine Type of Triangle</h1>
+
+    <form class="triangleType" id="triangleType">
+      <fieldset>
+          <label for="sideA">Side 1: </label>
+          <input type="number" id="sideA" min="0" max="99999">
+      </fieldset>
+      <fieldset>
+          <label for="sideB">Side 2: </label>
+          <input type="number" id="sideB" min="0" max="99999">
+      </fieldset>
+      <fieldset>
+          <label for="sideC">Side 3: </label>
+          <input type="number" id="sideC" min="0" max="99999">
+      </fieldset>
+      <input type="submit" value="submit">
+    </form>
+    <p id="triangleResult"></p>
+  </div>
   <script src="js/code.js"></script>
 </body>
 </html>
